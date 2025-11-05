@@ -1,0 +1,25 @@
+# === API & Web Servisleri ===
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+
+# === Yazıcı / ESC-POS İletişimi ===
+python-escpos==3.1
+pyusb==1.2.1
+pyserial==3.5
+Pillow==10.4.0
+
+# === Yardımcı Araçlar & Veri İşleme ===
+pydantic==2.8.2
+aiofiles==24.1.0
+requests==2.32.3
+python-dotenv==1.0.1
+
+# === Loglama ===
+loguru==0.7.2
+
+# === Bonus (opsiyonel, rastgele hata oluşturmaz) ===
+tenacity==9.0.0
+qrcode[pil]==7.4.2
+babel==2.16.0
+jinja2==3.1.4

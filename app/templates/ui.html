@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <title>Printer Service – WebUI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://unpkg.com/htmx.org@2.0.2"></script>
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 24px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    @media (min-width: 900px) { .grid { grid-template-columns: 1fr 2fr; } }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; }
+    .tbl { width: 100%; border-collapse: collapse; }
+    .tbl th, .tbl td { border-bottom: 1px solid #eee; padding: 8px; text-align: left; }
+    .tbl th { background: #fafafa; }
+    button { padding: 6px 10px; border-radius: 8px; border: 1px solid #ccc; background: #f8f8f8; cursor: pointer; }
+    button:hover { background: #efefef; }
+    .muted { color: #666; }
+    #toast { margin-top: 8px; color: #0a7; }
+  </style>
+</head>
+<body>
+  <h1>🖨️ Printer Service – WebUI</h1>
+  <div class="grid">
+    <div class="card">
+      <h3>Durum</h3>
+      <div id="status"
+           hx-get="/ui/partials/status"
+           hx-trigger="load, every 5s"
+           hx-swap="innerHTML">
+        <div class="muted">Yükleniyor…</div>
+      </div>
+      <div id="toast"></div>
+    </div>
+    <div class="card">
+      <h3>Kuyruk / Log (son 100)</h3>
+      <div id="jobs"
+           hx-get="/ui/partials/jobs"
+           hx-trigger="load, every 4s"
+           hx-swap="innerHTML">
+        <div class="muted">Yükleniyor…</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

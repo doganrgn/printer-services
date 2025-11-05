@@ -1,0 +1,5 @@
+{"id": "9a5f4a8c-3d54-47a6-8c3d-7f0449a4015f", "type": "text", "payload": {"text": "Merhaba dünya", "lang": "tr", "cut": false}, "ts": 1761165966.3496242, "meta": {"queue_jobid": "80e77d03-2e5e-41da-bfc3-1e3a8a36375f"}}
+{"id": "2bd52062-c142-4282-babe-b658d9f2000b", "type": "text", "payload": {"text": "Test fişi 1", "lang": "tr", "cut": false}, "ts": 1761166566.4283633, "meta": {"queue_jobid": "0c10e1d6-4cd4-4431-ba00-3287a49a39c7"}}
+{"id": "fc2d0060-fb4f-4f16-ae4c-9536b8b7e5b2", "type": "text", "payload": {"text": "Test fişi 2", "lang": "tr", "cut": false}, "ts": 1761166568.5009296, "meta": {"queue_jobid": "8026c78c-2328-4f2e-be44-ab1f8c44e5b4"}}
+{"id": "bdc67602-c6f2-44c5-8253-cd3649887201", "type": "text", "payload": {"text": "Test fişi 3", "lang": "tr", "cut": false}, "ts": 1761166570.5875432, "meta": {"queue_jobid": "cddcac07-2d31-4e04-84d5-a90ae7f59e89"}}
+{"id": "7e31aa45-6fdd-43cd-87ed-657e00417e49", "type": "text", "payload": {"text": "Merhaba USB dünya\nŞşĞğÜüİıÖöÇç", "lang": "tr", "cut": false}, "ts": 1761168518.7069027, "meta": {"queue_jobid": "4b7c42fe-9102-4b14-a757-2b1d21cee95e"}}
